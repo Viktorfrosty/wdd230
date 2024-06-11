@@ -1,1 +1,2 @@
-alert(document.lastModified);
+// alert(document.lastModified);
+document.querySelector("curent-year").value = Date;

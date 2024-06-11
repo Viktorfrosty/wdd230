@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Unbounded:wght@300&display=swap');
 
 :root {
-    --main-color: gray;
+    --main-color: lightgray;
     --secondary-color: black;
-    --accent-color: black;
+    --accent-color: darkgray;
+    --highlight-color: red;
 
     --headers-fonts: "carter One", arial;
     --paragraphs-fonts: Unbounded, garamond;
@@ -14,57 +15,72 @@
 
 body {
     margin: 0 auto;
+    padding: 0;
+	box-sizing: border-box;
 }
 
 header {
     display: flex;
-    height: 200px;
-    gap: 25px;
+    height: auto;
     font-family: var(--headers-fonts);
+    padding: 25px;
 }
 
 header span {
-    font-size: 30px;
-    text-shadow: 5px 5px 10px darkgray;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px var(--accent-color);
 }
 
 header img {
     height: 150px;
-    box-shadow: 5px 5px 10px darkgray;
+    box-shadow: 5px 5px 10px var(--accent-color);
     border-radius: 15%;
 }
 
 nav {
     background-color: var(--secondary-color);
-    height: 50px;
-    gap: 25%;
+    height: auto;
 }
 
-nav ul {
+nav ul, section ul {
+	list-style-type: none;
+    padding-inline-start: 0px;
+    margin: auto;
+}
+
+nav a {
     display: block;
+    padding: 12.5px;
+    font-family: var(--paragraphs-fonts);
+    color: var(--font-altern-color);
 }
 
-nav ul li a {
-    font-family: var(--paragraphs-fonts);
-    text-decoration: none;
-    color: var(--font-altern-color);
+nav a:hover {
+    color: var(--highlight-color);
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 footer {
     height: 100px;
 }
 
-footer p {
+nav a, section a {
+    text-decoration: none;
+    color: var(--font-main-color);
+}
+
+footer p, nav a {
     text-align: center;
 }
 
-/* header, nav {
-    display: flex;
-} */
-
-header, nav, footer {
-    width: 100%;
-    justify-content: center;
+header, footer {
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -72,6 +88,10 @@ header, footer {
     background-color: var(--main-color);
 }
 
-/* header span, header img, nav a {
-    margin: auto 0;
-} */
+.active {
+    background-color: var(--highlight-color);
+}
+
+.active:hover {
+    color: var(--font-altern-color);
+}
