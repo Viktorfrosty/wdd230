@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Unbounded:wght@300&display=swap');
+
+:root {
+    --main-color: gray;
+    --secondary-color: black;
+    --accent-color: black;
+
+    --headers-fonts: "carter One", arial;
+    --paragraphs-fonts: Unbounded, garamond;
+
+    --font-main-color: black;
+    --font-altern-color: white;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 200px;
+    gap: 25px;
+    font-family: var(--headers-fonts);
+}
+
+header span {
+    font-size: 30px;
+    text-shadow: 5px 5px 10px darkgray;
+}
+
+header img {
+    height: 150px;
+    box-shadow: 5px 5px 10px darkgray;
+    border-radius: 15%;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    height: 50px;
+    gap: 25%;
+}
+
+nav ul {
+    display: block;
+}
+
+nav ul li a {
+    font-family: var(--paragraphs-fonts);
+    text-decoration: none;
+    color: var(--font-altern-color);
+}
+
+footer {
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* header, nav {
+    display: flex;
+} */
+
+header, nav, footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    background-color: var(--main-color);
+}
+
+/* header span, header img, nav a {
+    margin: auto 0;
+} */
