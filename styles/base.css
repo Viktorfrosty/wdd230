@@ -51,34 +51,38 @@ nav ul, section ul {
 
 nav a {
     display: block;
-    padding: 25px 50px 25px 50px;
+    padding: 10px 50px 10px 50px;
     font-size: 15px;
     font-family: var(--paragraphs-fonts);
-    color: var(--font-altern-color);
+    color: var(--font-main-color);
 }
 
 nav a:hover {
     background-color: var(--accent-color);
     opacity: 0.75;
+    color: var(--font-altern-color);
 }
 
 main {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    row-gap: 25px;
 }
 
 main h1 {
-    margin: 25px 0px 10px 0px;
+    margin: 35px 0px 0px 0px;
     font-size: 25px;
-    text-decoration: underline var(--accent-color);
+    text-decoration: underline var(--secondary-color) 5px;
+    font-family: var(--headers-fonts);
 }
 
 .card {
     border: 5px solid var(--accent-color);
+    border-radius: 2%;
     margin: auto;
     box-shadow: 5px 5px 25px var(--accent-color);
+    width: 75%;
 }
 
 .card li {
@@ -88,11 +92,12 @@ main h1 {
 }
 
 .card h2 {
-    font-size: 25px;
+    font-size: 20px;
     padding: 25px;
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 5px 0px;
     background-color: var(--main-color);
     color: var(--font-altern-color);
+    border-bottom: 5px solid var(--accent-color);
 }
 
 footer {
@@ -115,6 +120,7 @@ header, footer {
 
 .active {
     background-color: var(--accent-color);
+    color: var(--font-altern-color);
 }
 
 .active:hover {
