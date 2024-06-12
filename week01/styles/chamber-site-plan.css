@@ -1,0 +1,22 @@
+:root {
+    
+    /* Color palette (page) */
+    --primary-color: black;
+    --secondary-color: black;
+    --accent-color1: black;
+    --accent-color2: black;
+    
+    /* Color palette (fonts) */
+    --main-font-color: black;
+    --altern-font-color: black;
+    
+    /* Fonts */
+    --main-fonts: Anta, serif, Arial;
+    --altern-fonts: "Familjen Grotesk", sans-serif, Cambria;
+
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+}
