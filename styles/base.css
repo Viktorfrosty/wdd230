@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     padding: 0;
 	box-sizing: border-box;
+    font-family: var(--paragraphs-fonts);
 }
 
 header {
@@ -27,6 +28,7 @@ header {
 }
 
 header span {
+    margin-left: 25px;
     font-size: 25px;
     text-shadow: 5px 5px 10px var(--accent-color);
 }
@@ -39,6 +41,8 @@ header img {
 
 nav {
     background-color: var(--secondary-color);
+    border-top: 5px solid var(--highlight-color);
+    border-bottom: 5px solid var(--highlight-color);
     height: auto;
 }
 
@@ -50,7 +54,7 @@ nav ul, section ul {
 
 nav a {
     display: block;
-    padding: 12.5px;
+    padding: 25px;
     font-family: var(--paragraphs-fonts);
     color: var(--font-altern-color);
 }
@@ -66,13 +70,42 @@ main {
     gap: 1rem;
 }
 
+main h1 {
+    margin-top: 50px;
+    font-size: 25px;
+    text-decoration: underline var(--accent-color);
+}
+
+section a {
+    color: var(--font-main-color);
+}
+
+.card {
+    display: block;
+    border: 3px solid var(--accent-color);
+    margin: auto;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.card li {
+    font-size: 15px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+}
+
 footer {
+    margin-top: 25px;
     height: 100px;
+    align-content: center;
 }
 
 nav a, section a {
     text-decoration: none;
-    color: var(--font-main-color);
 }
 
 footer p, nav a {
@@ -80,7 +113,7 @@ footer p, nav a {
 }
 
 header, footer {
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
