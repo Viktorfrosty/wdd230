@@ -1,2 +1,2 @@
-// alert(document.lastModified);
-document.querySelector("curent-year").value = Date;
+document.querySelector("#year").textContent = new Date().getFullYear();
+document.querySelector("#lastModified").textContent = `Last modification: ${document.lastModified}`;

@@ -4,8 +4,8 @@
     --accent-color: darkgray;
     --highlight-color: red;
 
-    --headers-fonts: "carter One", arial;
-    --paragraphs-fonts: Unbounded, garamond;
+    --headers-fonts: "carter One", serif, arial;
+    --paragraphs-fonts: Unbounded, sans-serif, garamond;
 
     --font-main-color: black;
     --font-altern-color: white;
@@ -69,21 +69,14 @@ main {
 }
 
 main h1 {
-    margin-top: 50px;
+    margin: 25px 0px 10px 0px;
     font-size: 25px;
     text-decoration: underline var(--accent-color);
 }
 
-section a {
-    color: var(--font-main-color);
-}
-
 .card {
-    display: block;
-    border: 3px solid var(--accent-color);
+    border: 5px solid var(--accent-color);
     margin: auto;
-    padding: 25px;
-    border-radius: 5%;
 }
 
 .card li {
@@ -93,30 +86,27 @@ section a {
 }
 
 .card h2 {
-    font-size: 20px;
+    font-size: 25px;
+    padding: 25px;
+    margin: 0px 0px 25px 0px;
+    background-color: var(--main-color);
 }
 
 footer {
     margin-top: 25px;
-    height: 100px;
+    height: auto;
     align-content: center;
+    text-align: center;
 }
 
 nav a, section a {
     text-decoration: none;
 }
 
-footer p, nav a {
-    text-align: center;
-}
-
-header, footer {
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 header, footer {
     background-color: var(--main-color);
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .active {
