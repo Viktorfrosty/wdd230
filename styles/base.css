@@ -19,7 +19,6 @@ body {
 
 header {
     display: flex;
-    height: auto;
     font-family: var(--headers-fonts);
     padding: 25px;
 }
@@ -40,13 +39,6 @@ nav {
     background-color: var(--secondary-color);
     border-top: 5px solid var(--accent-color);
     border-bottom: 5px solid var(--accent-color);
-    height: auto;
-}
-
-nav ul, section ul {
-	list-style-type: none;
-    padding-inline-start: 0px;
-    margin: auto;
 }
 
 nav a {
@@ -102,10 +94,19 @@ main h1 {
 
 footer {
     margin-top: 25px;
-    height: auto;
     align-content: center;
     text-align: center;
     color: var(--font-altern-color);
+}
+
+nav, head, footer {
+    height: auto;
+}
+
+nav ul, section ul {
+	list-style-type: none;
+    padding-inline-start: 0px;
+    margin: auto;
 }
 
 nav a, section a {
