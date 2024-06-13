@@ -8,7 +8,7 @@
     
     /* Color palette (fonts) */
     --main-font-color: black;
-    --altern-font-color: black;
+    --altern-font-color: white;
     
     /* Fonts */
     --main-fonts: Anta, serif, Arial;
@@ -19,4 +19,24 @@
 body {
     margin: 0 auto;
     max-width: 1000px;
+    text-align: center
+}
+
+h1, h2 {
+    font-family: var(--main-fonts);
+}
+
+p {
+    font-family: var(--altern-fonts);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--altern-font-color);
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+section {
+    border-top: 5px solid var(--accent-color2);
 }
