@@ -26,6 +26,7 @@ h1, h2, h3 {
 
 h2 {
     text-decoration: underline solid var(--primary-color) 5px;
+    margin-bottom: 50px;
 }
 
 h3 a {
