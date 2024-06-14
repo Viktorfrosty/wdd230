@@ -47,6 +47,7 @@ header {
 section {
     border-top: 5px dotted var(--secondary-color);
     margin: 50px 25px;
+    padding-top: 25px;
 }
 
 p {
