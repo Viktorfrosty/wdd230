@@ -1,14 +1,10 @@
 :root {
     
     /* Color palette (page) */
-    --primary-color: black;
-    --secondary-color: black;
-    --accent-color1: black;
-    --accent-color2: black;
-    
-    /* Color palette (fonts) */
-    --main-font-color: black;
-    --altern-font-color: white;
+    --primary-color: #1d5890;
+    --secondary-color: #ffc300;
+    --accent-color1: #151515;
+    --accent-color2: #EBEBEB;
     
     /* Fonts */
     --main-fonts: Anta, serif, Arial;
@@ -19,24 +15,54 @@
 body {
     margin: 0 auto;
     max-width: 1000px;
-    text-align: center
-}
-
-h1, h2 {
-    font-family: var(--main-fonts);
-}
-
-p {
-    font-family: var(--altern-fonts);
+    text-align: center;
+    color: var(--primary-color);
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--altern-font-color);
-    padding: 25px;
     margin-bottom: 50px;
 }
 
+header, footer {
+    padding: 25px;
+}
+
 section {
-    border-top: 5px solid var(--accent-color2);
+    border-top: 5px solid var(--accent-color1);
+}
+
+.palette {
+    width: 100%;
+    min-width: 250px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.palette th, .coloured-box {
+    background-color: var(--primary-color);
+    color: var(--accent-color2);
+}
+
+.palette td {
+    width: 25%;
+    height: 25px;
+}
+
+#primary {
+    background-color: var(--primary-color);
+}
+
+#secondary {
+    background-color: var(--secondary-color);
+    color: var(--accent-color1);
+}
+
+#accent1 {
+    background-color: var(--accent-color1);
+}
+
+
+#accent2 {
+    background-color: var(--accent-color2);
+    color: var(--accent-color1);
 }
