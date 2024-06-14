@@ -36,11 +36,21 @@ h3 a {
 
 header, footer {
     padding: 10px;
+    border-left: 5px solid var(--secondary-color);
+    border-right: 5px solid var(--secondary-color);
+}
+
+header {
+    border-bottom: 5px solid var(--secondary-color);
 }
 
 section {
     border-top: 5px dotted var(--secondary-color);
     margin: 50px 25px;
+}
+
+p {
+    text-align: justify;
 }
 
 div {
@@ -50,7 +60,6 @@ div {
 }
 
 div p {
-    text-align: justify;
     padding: 25px;
     margin: 0px;
 }
@@ -119,4 +128,12 @@ div nav a {
 #accent {
     background-color: var(--accent-color);
     color: var(--secondary-color);
+}
+
+footer {
+    border-top: 5px solid var(--secondary-color);
+}
+
+footer p {
+    text-align: center;
 }
