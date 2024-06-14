@@ -2,9 +2,8 @@
     
     /* Color palette (page) */
     --primary-color: #1d5890;
-    --secondary-color: #ffc300;
-    --accent-color1: #151515;
-    --accent-color2: #EBEBEB;
+    --secondary-color: #151515;
+    --accent-color: #EBEBEB;
     
     /* Fonts */
     --main-fonts: Anta, serif, Arial;
@@ -16,19 +15,78 @@ body {
     margin: 0 auto;
     max-width: 1000px;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--altern-fonts);
+
 }
 
-header {
-    margin-bottom: 50px;
+h1, h2, h3 {
+    font-family: var(--main-fonts);
+}
+
+h2 {
+    text-decoration: underline solid var(--primary-color) 5px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 header, footer {
-    padding: 25px;
+    padding: 10px;
 }
 
 section {
-    border-top: 5px solid var(--accent-color1);
+    border-top: 5px dotted var(--secondary-color);
+    margin: 50px 25px;
+}
+
+div {
+    border: 5px solid var(--secondary-color);
+    border-radius: 5px;
+    margin: 25px;
+}
+
+div p {
+    text-align: justify;
+    padding: 25px;
+    margin: 0px;
+}
+
+div nav {
+    font-size: 25px;
+    background-color: var(--primary-color);
+}
+
+div nav ul {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+div nav ul li {
+    align-content: center;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+div nav a {
+    padding: 12px;
+    text-decoration: none;
+    color: var(--accent-color);
+    font-family: var(--main-fonts);
+}
+
+.active, div nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+.active:hover {
+    opacity: 1;
 }
 
 .palette {
@@ -40,7 +98,7 @@ section {
 
 .palette th, .coloured-box {
     background-color: var(--primary-color);
-    color: var(--accent-color2);
+    color: var(--accent-color);
 }
 
 .palette td {
@@ -54,15 +112,10 @@ section {
 
 #secondary {
     background-color: var(--secondary-color);
-    color: var(--accent-color1);
+    color: var(--accent-color);
 }
 
-#accent1 {
-    background-color: var(--accent-color1);
-}
-
-
-#accent2 {
-    background-color: var(--accent-color2);
-    color: var(--accent-color1);
+#accent {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
 }
