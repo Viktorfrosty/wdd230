@@ -20,7 +20,7 @@ body {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: var(--main-fonts);
 }
 
@@ -129,6 +129,10 @@ div nav a {
 #accent {
     background-color: var(--accent-color);
     color: var(--secondary-color);
+}
+
+.wide-wireframe {
+    width: 100%;
 }
 
 footer {
