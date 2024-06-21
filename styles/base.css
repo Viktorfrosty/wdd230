@@ -100,7 +100,6 @@ main h1 {
 }
 
 .card a {
-    text-decoration-line: underline;
     font-weight: bold;
     color: var(--main-color);
 }

@@ -13,6 +13,10 @@
 		justify-content: space-evenly;
 	}
 
+	nav a {
+		display: block;
+	}
+
 	#nav-menu {
 		display: none;
 	}
