@@ -8,7 +8,7 @@
     <meta name="og:title" content="Victor Manuel Malpica Castro - WDD 230 - Web Frontend Development">
     <meta name="og:type" content="website">
     <meta name="og:image" content="https://gbvm.knoios.com/mmedia/19614/barquisimeto-11688.jpg">
-    <meta name="url" content="https://viktorfrosty.github.io/wdd230/">
+    <meta name="og:url" content="https://viktorfrosty.github.io/wdd230/">
     <title>Victor Manuel Malpica Castro - WDD 230 - Web Frontend Development</title>
     <link rel="icon" href="images/icon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -21,21 +21,35 @@
 <body>
     <header>
         <img src="images/profile-picture.jpg" alt="Victor Malpica's picture">
-        <span>Victor Manuel Malpica Castro</span>
+        <span>
+            Victor Manuel Malpica Castro
+        </span>
+        <div id="mode-selector">
+            🌑
+        </div>
     </header>
     <nav>
+        <button id="nav-menu"></button>
         <ul>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html" class="active">
+                    Home
+                </a>
             </li>
             <li>
-                <a href="#">Chamber</a>
+                <a href="#">
+                    Chamber
+                </a>
             </li>
             <li>
-                <a href="week01/chamber-site-plan.html">Site Plan</a>
+                <a href="week01/chamber-site-plan.html">
+                    Site Plan
+                </a>
             </li>
             <li>
-                <a href="#">Form</a>
+                <a href="#">
+                    Form
+                </a>
             </li>
         </ul>
     </nav>
@@ -93,5 +107,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/navMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 </html>
