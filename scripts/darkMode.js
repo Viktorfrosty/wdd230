@@ -8,6 +8,9 @@ modeButton.addEventListener("click", () => {
 		body.style.color = "#fff";
 		cards.forEach(card => {
 			card.style.boxShadow = "none";
+			card.querySelectorAll("a").forEach(link => {
+				link.style.color = "darkgray";
+			});
 		});
 		modeButton.textContent = "🌟";
 	} else {
@@ -15,6 +18,9 @@ modeButton.addEventListener("click", () => {
 		body.style.color = "#000";
 		cards.forEach(card => {
 			card.style.boxShadow = "5px 5px 25px var(--accent-color)";
+			card.querySelectorAll("a").forEach(link => {
+				link.style.color = "#1d5890";
+			});
 		});
 		modeButton.textContent = "🌑";
 	}
