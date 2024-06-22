@@ -22,7 +22,11 @@ body h1, body h2 {
 
 header {
     display: flex;
-    gap: 0 25px;
+    gap: 0 50px;
+}
+
+header h1 {
+    font-size: 1.75rem;
 }
 
 .join {
@@ -44,7 +48,7 @@ nav {
     border-bottom: 5px solid var(--secondary-color);
 }
 
-nav ul {
+ul {
     padding-inline-start: 0px;
     list-style-type: none;
     margin: auto;
@@ -69,15 +73,16 @@ nav a:hover {
     border-radius: 0%;
     font-size: 30px;
     background-color: var(--accent-color);
+    border-top: 10px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
-
 #nav-menu::before {
-    content: "☰";
+    content: "⥥";
 }
 
 #nav-menu.show::before {
-    content: "✖️";
+    content: "⥣";
 }
 
 .show a {
@@ -90,6 +95,57 @@ nav a:hover {
 
 #active:hover {
     color: var(--accent-color);
+}
+
+#upper-section img {
+    width: 100%;
+}
+
+#lower-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+}
+
+article {
+    align-self: center;
+    width: 100%;
+    border: 5px solid var(--secondary-color);
+    border-radius: 5px;
+    margin: 50px 0px;
+}
+
+article h2 {
+    text-align: center;
+    color: var(--accent-color);
+    background-color: var(--primary-color);
+    border: 5px solid var(--secondary-color);
+    border-radius: 0px 10px;
+    width: 200px;
+    position: relative;
+    top: -50px;
+    left: 30%;
+    padding: 10px;
+}
+
+article ul {
+    padding: 25px;
+    margin-top: -75px;
+}
+
+article li {
+    border: 5px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+article li img {
+    width: 100%;
+}
+
+article img {
+    width: 80%;
 }
 
 footer {

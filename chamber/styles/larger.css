@@ -16,4 +16,14 @@
     #nav-menu {
         display: none;
     }
+
+    #lower-section {
+        padding: 25px 125px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    article h2 {
+        left: 40%;
+    }
 }
