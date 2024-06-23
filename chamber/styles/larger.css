@@ -110,12 +110,12 @@
         top: -130px;
     }
 
-    #cta-card button {
-        top: -375px;
+    #cta-card .join {
+        top: -345px;
         left: -200px;
     }
 
-    #cta-card img, #cta-card p, #cta-card button {
+    #cta-card img, #cta-card p, #cta-card .join {
         position: relative;
     }
 }
