@@ -22,11 +22,13 @@ body h1, body h2 {
 
 header {
     display: flex;
-    gap: 0 50px;
+    justify-content: space-between;
 }
 
 header h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    max-width: 50%;
+    margin: auto 0px;
 }
 
 .join {
@@ -110,6 +112,7 @@ nav a:hover {
 
 article {
     align-self: center;
+    text-align: center;
     width: 100%;
     border: 5px solid var(--secondary-color);
     border-radius: 5px;
@@ -124,20 +127,22 @@ article h2 {
     border-radius: 0px 10px;
     width: 200px;
     position: relative;
-    top: -50px;
-    left: 30%;
+    top: -30px;
+    margin: 0px auto;
     padding: 10px;
 }
 
 article ul {
     padding: 25px;
-    margin-top: -75px;
+    margin-top: -50px;
 }
 
 article li {
     border: 5px solid var(--secondary-color);
     border-radius: 5px;
     margin-top: 25px;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 article li img {
@@ -146,6 +151,30 @@ article li img {
 
 article img {
     width: 80%;
+}
+
+#cta-card p{
+    width: 80%;
+    text-align: justify;
+    margin: 10px auto 0px;
+    padding: 10px;
+    border: 5px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border-radius: 5px;
+}
+
+#cta-card img {
+    border: 5px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+#cta-card button {
+    margin: 50px 0px;
+}
+
+address {
+    margin-bottom: 25px;
 }
 
 footer {
