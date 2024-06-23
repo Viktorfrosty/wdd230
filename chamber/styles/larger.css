@@ -118,4 +118,10 @@
     #cta-card img, #cta-card p, #cta-card .join {
         position: relative;
     }
+
+    footer {
+        margin-top: -10px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
