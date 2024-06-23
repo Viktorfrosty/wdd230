@@ -124,4 +124,16 @@
         display: flex;
         justify-content: space-between;
     }
+
+    footer div {
+        margin: auto 0px;
+    }
+
+    #left-group {
+        text-align: left;
+    }
+
+    #right-group {
+        text-align: right;
+    }
 }
