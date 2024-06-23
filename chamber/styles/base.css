@@ -184,7 +184,7 @@ article img {
 
 #cta-card p{
     width: 80%;
-    text-align: justify;
+    text-align: center;
     margin: 10px auto 0px;
     padding: 10px;
     border: 5px solid var(--secondary-color);
