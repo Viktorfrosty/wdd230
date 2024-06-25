@@ -35,15 +35,8 @@
 		height: 100%;
 	}
 
-	main h1 {
+	main h1, iframe, .hero {
 		grid-column: 1/4;
-	}
-
-	footer {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
 	}
 
 }

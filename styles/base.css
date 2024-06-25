@@ -76,6 +76,11 @@ main h1 {
     font-family: var(--headers-fonts);
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 .card {
     border: 5px solid var(--accent-color);
     border-radius: 2%;
@@ -159,4 +164,5 @@ header, footer {
 iframe {
     width: 90%;
     margin: 25px auto;
+    border: none;
 }
