@@ -106,7 +106,7 @@ main h1 {
     height: auto;
 }
 
-.hero h2 {
+.hero h3 {
     text-align: left;
     white-space: nowrap;
     position: absolute;
@@ -115,6 +115,7 @@ main h1 {
     left: 25px;
     right: 0px;
     text-shadow: 2px 2px 2px var(--font-altern-color);
+    color: var(--accent-color);
 }
 
 .card {
@@ -172,7 +173,7 @@ nav a, section a {
     text-decoration: none;
 }
 
-main h1, .hero h2 {
+main h1, .hero h3 {
     text-decoration: underline var(--secondary-color) 5px;
     font-family: var(--headers-fonts);
 }
