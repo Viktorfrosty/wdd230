@@ -25,7 +25,6 @@ header {
 }
 
 header img {
-    height: 150px;
     box-shadow: 5px 5px 25px var(--accent-color);
     border-radius: 15%;
 }
@@ -176,4 +175,17 @@ nav a, section a {
 main h1, .hero h2 {
     text-decoration: underline var(--secondary-color) 5px;
     font-family: var(--headers-fonts);
+}
+
+.hero, iframe {
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

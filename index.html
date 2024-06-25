@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile-picture.jpg" alt="Victor Malpica's picture">
+        <img src="images/profile-picture.webp" alt="Victor Malpica's picture" loading="lazy" height="150" width="120">
         <span>
             Victor Manuel Malpica Castro
         </span>
@@ -60,7 +60,7 @@
             <picture>
                 <source media="(max-width: 400px)" srcset="images/hero-small.webp">
                 <source media="(max-width: 960px)" srcset="images/hero-large.webp">
-                <img src="images/hero-large.webp" alt="Houston Texas Temple" width="960" height="750">
+                <img src="images/hero-large.webp" alt="Houston Texas Temple" loading="lazy" width="960" height="750">
             </picture>
             <div>
                 <h2>
@@ -109,9 +109,7 @@
             <p>
                 Temperature - Weather
             </p>
-            <p>
-                Visit count
-            </p>
+            <p id="counter"></p>
         </section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1060.7672660974047!2d-69.37923399217186!3d10.05397213535768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8766a6d2bdeb8b%3A0x9511a9c6bbc22890!2sResidencias%20Los%20Alamos!5e0!3m2!1ses!2sve!4v1719294983845!5m2!1ses!2sve" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
@@ -131,6 +129,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/navMenu.js"></script>
+    <script src="scripts/visitsCounter.js"></script>
     <script src="scripts/darkMode.js"></script>
 </body>
 </html>
