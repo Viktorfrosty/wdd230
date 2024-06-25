@@ -155,3 +155,8 @@ header, footer {
 .active:hover {
     opacity: 1;
 }
+
+iframe {
+    width: 90%;
+    padding: 25px;
+}
