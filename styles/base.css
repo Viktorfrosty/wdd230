@@ -25,7 +25,6 @@ header {
 }
 
 header img {
-    box-shadow: 5px 5px 25px var(--accent-color);
     border-radius: 15%;
 }
 
@@ -34,10 +33,29 @@ header span {
     color: var(--font-altern-color);
 }
 
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 #mode-selector {
-    font-size: 40px;
-    cursor: crosshair;
+    font-size: 42px;
     color: var(--font-altern-color);
+}
+
+#mode-selector, #nav-menu {
+    width: 50px;
+    height: 50px;
+}
+
+#nav-menu {
+    border-radius: 100%;
+    margin-left: 6px;
+}
+
+#nav-menu span{
+    display: none;
 }
 
 #nav-menu::before {
@@ -48,18 +66,15 @@ header span {
 #nav-menu.show::before {
     content: "✖️ ";
     font-size: 30px;
-    margin-left: -7px;
-    margin-right: -7px;
+    margin: 0px -8px;
 }
 
 .show a {
     display: block;
 }
 
-
 nav {
     background-color: var(--secondary-color);
-    border-top: 5px solid var(--accent-color);
     border-bottom: 5px solid var(--accent-color);
 }
 
@@ -73,8 +88,8 @@ nav a {
 
 nav a:hover {
     background-color: var(--accent-color);
-    opacity: 0.75;
     color: var(--font-altern-color);
+    cursor: crosshair;
 }
 
 .active {
@@ -83,7 +98,11 @@ nav a:hover {
 }
 
 .active:hover {
-    opacity: 1;
+    cursor: pointer;
+}
+
+.active:before {
+    content: "» ";
 }
 
 main {
@@ -93,7 +112,7 @@ main {
 }
 
 main h1 {
-    margin: 35px 0px 0px 0px;
+    margin: 35px 0px;
     font-size: 25px;
 }
 
@@ -119,10 +138,7 @@ main h1 {
 }
 
 .card {
-    border: 5px solid var(--accent-color);
-    border-radius: 2%;
     margin: auto;
-    box-shadow: 5px 5px 25px var(--accent-color);
     width: 75%;
 }
 
@@ -130,7 +146,6 @@ main h1 {
     font-size: 20px;
     padding: 25px;
     margin: 0px 0px 5px 0px;
-    background-color: var(--main-color);
     color: var(--font-altern-color);
     border-bottom: 5px solid var(--accent-color);
 }
@@ -147,19 +162,18 @@ main h1 {
 }
 
 iframe {
-    width: 90%;
+    width: 75%;
     margin: 25px auto;
-    border: none;
 }
 
 footer {
     margin-top: 25px;
+    border-top: 5px solid var(--accent-color);
     align-content: center;
     color: var(--font-altern-color);
 }
 
 header, footer {
-    background-color: var(--main-color);
     justify-content: space-evenly;
 }
 
@@ -180,6 +194,16 @@ main h1, .hero h3 {
 
 .hero, iframe {
     animation: fade 10s;
+}
+
+.card, iframe {
+    box-shadow: 5px 5px 25px var(--accent-color);
+    border: 5px solid var(--accent-color);
+    border-radius: 5px;
+}
+
+header, footer, .card h2 {
+    background-image: linear-gradient(to right, var(--accent-color),var(--main-color), var(--secondary-color));
 }
 
 @keyframes fade {
