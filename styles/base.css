@@ -98,6 +98,10 @@ main h1 {
     font-size: 25px;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero img {
     width: 100%;
     height: auto;
@@ -105,11 +109,12 @@ main h1 {
 
 .hero h2 {
     text-align: left;
+    white-space: nowrap;
     position: absolute;
-    top: 245px;
+    top: 0px;
     bottom: 0px;
     left: 25px;
-    right: 100px;
+    right: 0px;
     text-shadow: 2px 2px 2px var(--font-altern-color);
 }
 
