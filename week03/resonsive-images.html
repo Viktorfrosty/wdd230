@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive images assingment</title>
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Responsive images assingment
+        </h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Houston Texas Temple" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &bullet; Victor Manuel Malpica Castro
+        </p>
+        <p>
+            &bullet; WDD 230
+        </p>
+        <p>
+            &bull; <span id="info"></span>
+        </p>
+    </footer>
+    <script src="scripts/lastModified.js"></script>
+</body>
+</html>

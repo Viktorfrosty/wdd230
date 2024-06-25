@@ -1,0 +1,37 @@
+body, img {
+    display: block;
+    margin: 0px auto;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+img {
+    background-color: black;
+    animation: fade 10s;
+}
+
+div {
+    height: 75px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer, header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 25px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
