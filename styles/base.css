@@ -22,6 +22,7 @@ header {
     align-items: center;
     font-family: var(--headers-fonts);
     padding: 25px;
+    gap: 15px;
 }
 
 header img {
@@ -134,7 +135,7 @@ main h1 {
     bottom: 0px;
     left: 25px;
     right: 0px;
-    text-shadow: 2px 2px 2px var(--main-color);
+    text-shadow: 2px 2px 2px var(--font-altern-color);
     color: var(--accent-color);
 }
 
@@ -153,8 +154,24 @@ main h1 {
 
 .card li {
     font-size: 12px;
-    text-align: justify;
-    padding: 5px 0px 5px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px;
+    gap: 10px;
+}
+
+.card li p {
+margin: 25px auto 0px;
+text-align: center;
+}
+
+#counter{
+    margin: 0px auto 50px;
+}
+
+.card span {
+    display: none;
 }
 
 .card a {
