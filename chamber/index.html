@@ -10,7 +10,7 @@
     <meta property="og:image" content="https://gbvm.knoios.com/mmedia/19614/barquisimeto-11688.jpg">
     <meta property="og:url" content="https://viktorfrosty.github.io/wdd230/chamber/index.html">
     <title>Twilight's Chamber of Commerce | Home</title>
-    <link rel="icon" href="images/icon.ico">
+    <link rel="icon" href="images/logo.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -20,6 +20,7 @@
 </head>
 <body>
     <header>
+        <img src="images/logo.webp" alt="Twilight's Chamber of Commerce Logo" loading="lazy">
         <h1>
             Twilight's Chamber of Commerce
         </h1>
@@ -27,7 +28,9 @@
             Join
         </a>
     </header>
-    <button id="nav-menu">Menu</button>
+    <button id="nav-menu">
+        <span>Menu</span>
+    </button>
     <nav>
         <ul>
             <li>
@@ -36,7 +39,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="discovery.html">
                     Discover
                 </a>
             </li>
@@ -52,7 +55,10 @@
             <h2>
                 Connecting our people with the world
             </h2>
-            <img src="https://placehold.co/1500x600?text=Hero+Image" alt="placeholder">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <img loading="lazy" src="images/hero-medium.webp" alt="Twilight's Chamber of Commerce HQ" width="480" height="960">
+            </picture>
         </section>
         <section id="lower-section">
             <h2 id="lower-h">
