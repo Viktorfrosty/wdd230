@@ -1,3 +1,8 @@
+
+/* -------------------------------------------------------------------------- */
+/* ------------------------ General Porpouse Elements ----------------------- */
+/* -------------------------------------↓------------------------------------ */
+
 :root {
     /* Color palette (page) */
     --primary-color: #68190b;
@@ -100,6 +105,39 @@ nav a {
 #active:hover {
     color: var(--accent-color);
 }
+
+footer {
+    margin-top: 25px;
+    text-align: center;
+    border-top: 5px solid var(--secondary-color);
+}
+
+body, a {
+    font-family: var(--altern-fonts);
+    text-decoration: none;
+}
+
+body h1, body h2 {
+    font-family: var(--main-fonts);
+}
+
+header, footer {
+    color: var(--accent-color);
+    padding: 10px;
+}
+
+nav a:hover, #discover-button:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+header, #active, #lower-h, article h2, article li, #cta-card p, footer {
+    background-image: linear-gradient(to bottom left, var(--secondary-color), var(--primary-color));
+}
+
+/* -------------------------------------x------------------------------------ */
+/* --------------------------- Home Page Elements --------------------------- */
+/* -------------------------------------↓------------------------------------ */
 
 #upper-section {
     display: grid;
@@ -214,31 +252,6 @@ address {
     margin-bottom: 25px;
 }
 
-footer {
-    margin-top: 25px;
-    text-align: center;
-    border-top: 5px solid var(--secondary-color);
-}
-
-body, a {
-    font-family: var(--altern-fonts);
-    text-decoration: none;
-}
-
-body h1, body h2 {
-    font-family: var(--main-fonts);
-}
-
-header, footer {
-    color: var(--accent-color);
-    padding: 10px;
-}
-
-nav a:hover, #discover-button:hover {
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
-}
-
 #lower-h, #discover-button {
     display: block;
     text-align: center;
@@ -251,6 +264,40 @@ nav a:hover, #discover-button:hover {
     padding: 10px;
 }
 
-header, #active, #lower-h, article h2, article li, #cta-card p, footer {
-    background-image: linear-gradient(to bottom left, var(--secondary-color), var(--primary-color));
+/* -------------------------------------x------------------------------------ */
+/* ------------------------- Discovery Page Elements ------------------------ */
+/* -------------------------------------↓------------------------------------ */
+
+#discovery-grid div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+#discovery-grid #discovery-sidebar {
+    padding: 25px;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+
+#discovery-sidebar iframe {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#last-visit {
+    grid-row: 1/2;
+}
+
+#calendar {
+    grid-row: 2/3;
+}
+
+#city-info {
+    grid-row: 3/4;
+}
+
+#pictures img {
+    height: auto;
+    width: 100%;
 }

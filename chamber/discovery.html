@@ -7,7 +7,7 @@
     <meta name="description" content="Twilight's Chamber of Commerce network, the place to find information about the local bussines growing in Barquisimeto, Venezuela.">
     <meta property="og:title" content="Twilight's Chamber of Commerce">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://gbvm.knoios.com/mmedia/19614/barquisimeto-11688.jpg">
+    <meta property="og:image" content="https://gbvm.knoios.com/mmedia/19614/barquisimeto-11688.webp">
     <meta property="og:url" content="https://viktorfrosty.github.io/wdd230/chamber/index.html">
     <title>Twilight's Chamber of Commerce | Discovery</title>
     <link rel="icon" href="images/logo.ico">
@@ -29,7 +29,9 @@
         </a>
     </header>
     <button id="nav-menu">
-        <span>Menu</span>
+        <span>
+            Menu
+        </span>
     </button>
     <nav>
         <ul>
@@ -51,6 +53,67 @@
         </ul>
     </nav>
     <main>
+        <div id="discovery-grid">
+            <div id="discovery-sidebar">
+                <h2 id="last-visit"></h2>
+                <section id="city-info">
+                    <h2>
+                        Barquisimeto, The Twilight's City
+                    </h2>
+                    <p>
+                        Barquisimeto is the capital of the State of Lara, located in the Central-Western Region of Venezuela. It is known as the “City of Twilights” due to its impressive sunsets. Additionally, it is widely recognized as the “Musical Capital of Venezuela” due to the large number of musicians and cultural expressions it hosts.
+                    </p>
+                </section>
+                <sectio id="calendar">
+                    <h2>
+                        Activities Calendar
+                    </h2>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=victormalpica0508%40gmail.com&ctz=UTC" style="border: 0" width="450" height="300" frameborder="0" scrolling="no" loading="lazy"></iframe>
+                </section>
+            </div>
+            <div id="pictures">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img1-small.webp">
+                    <img loading="lazy" src="images/img1-large.webp" alt="picture of EL obelisco de barquisimeto" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img2-small.webp">
+                    <img loading="lazy" src="images/img2-large.webp" alt="picture of Jacinto Lara International Airport" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img3-small.webp">
+                    <img loading="lazy" src="images/img3-large.webp" alt="picture of Lara goverment building" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img4-small.webp">
+                    <img loading="lazy" src="images/img4-large.webp" alt="picture of Barquicenter mall" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img5-small.webp">
+                    <img loading="lazy" src="images/img5-large.webp" alt="picture of Metropolis mall" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img6-small.webp">
+                    <img loading="lazy" src="images/img6-large.webp" alt="picture of El Paris mall" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img7-small.webp">
+                    <img loading="lazy" src="images/img7-large.webp" alt="picture of Las trinitarias mall" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img8-small.webp">
+                    <img loading="lazy" src="images/img8-large.webp" alt="picture of Sambil mall" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img9-small.webp">
+                    <img loading="lazy" src="images/img9-large.webp" alt="picture of Antonio Herrera Gutiérrez Baseball stadium" width="960" height="480">
+                </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/img10-small.webp">
+                    <img loading="lazy" src="images/img10-large.webp" alt="picture of La Redoma del Dol" width="960" height="480">
+                </picture>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="left-group">
@@ -81,5 +144,6 @@
     </footer>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/navMenu.js"></script>
+    <script src="scripts/lastVisit.js"></script>
 </body>
 </html>
