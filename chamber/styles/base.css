@@ -117,7 +117,7 @@ body, a {
     text-decoration: none;
 }
 
-body h1, body h2 {
+body h1, body h2, body h3 {
     font-family: var(--main-fonts);
 }
 
@@ -295,6 +295,11 @@ address {
     flex-direction: column;
     gap: 25px;
     padding: 0px 10px;
+}
+
+#pictures h3 {
+    color: var(--secondary-color);
+    text-decoration: 5px underline var(--primary-color);
 }
 
 #pictures img {
