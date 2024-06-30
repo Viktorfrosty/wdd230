@@ -1,5 +1,9 @@
 @media (min-width: 769px) {
 
+    /* ---------------------------------------------------------------------- */
+    /* ---------------------- General Porpouse Elements --------------------- */
+    /* -----------------------------------↓---------------------------------- */
+
     main {
         max-width: 1500px;
         margin: 0 auto;
@@ -16,6 +20,7 @@
     nav ul {
         display: flex;
         gap: 10px;
+        margin-left: 10px;
     }
 
     nav a {
@@ -28,15 +33,35 @@
         display: none;
     }
 
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer div {
+        margin: auto 0px;
+    }
+
+    #left-group {
+        text-align: left;
+    }
+
+    #right-group {
+        text-align: right;
+    }
+
+    header, footer {
+        padding: 5px 25px;
+    }
+
+    /* -----------------------------------x---------------------------------- */
+    /* ------------------------- Home Page Elements ------------------------- */
+    /* -----------------------------------↓---------------------------------- */
+
     #upper-section {
         margin-bottom: 50px;
     }
-/*
-    #upper-section picture {
-        grid-area: 1/1/3/2;
-        z-index: 0;
-    }*/
-    
+
     #upper-section h2 {
         margin-left: 100px;
         margin-right: auto;
@@ -124,25 +149,61 @@
         position: relative;
     }
 
-    footer {
-        margin-top: -10px;
-        display: flex;
-        justify-content: space-between;
+    /* -----------------------------------x---------------------------------- */
+    /* ----------------------- Discovery Page Elements ---------------------- */
+    /* -----------------------------------↓---------------------------------- */
+
+    #discovery-grid {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin: 25px 25px 25px auto;
+        gap: 25px;
+        color: var(--accent-color);
     }
 
-    footer div {
-        margin: auto 0px;
+    #discovery-sidebar {
+        grid-column: 1/2;
+        width: 450px;
+        height: 550px;
+        background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+        padding: 0px 10px;
+        position: sticky;
+        top: 25px;
+        right: 0px;
+        left: 0px;
+        bottom: 25px;
+        border: 5px solid var(--secondary-color);
+        border-left: none;
+        border-radius: 0px 5px 5px 0px;
     }
 
-    #left-group {
+    #discovery-sidebar h2 {
+        font-size: 17px;
+        font-weight: lighter;
+    }
+
+    #discovery-sidebar p {
+        font-size: 12px;
         text-align: left;
     }
 
-    #right-group {
-        text-align: right;
+    
+#calendar {
+    grid-row: 3/4;
+}
+
+#city-info {
+    grid-row: 2/3;
+}
+
+    #pictures {
+        grid-column: 2/3;
+        gap: 50px;
     }
 
-    header, footer {
-        padding: 25px;
+    #pictures img:hover {
+        transform: scale(1.05);
+        box-shadow: 25px 10px var(--secondary-color);
     }
+
 }
