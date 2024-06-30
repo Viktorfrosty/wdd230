@@ -200,8 +200,13 @@
         gap: 50px;
     }
 
+    #pictures img {
+        filter: grayscale(75%) blur(1px);
+    }
+
     #pictures img:hover {
         transform: scale(1.05);
+        filter: none;
         box-shadow: 25px 10px 5px var(--secondary-color);
     }
 
