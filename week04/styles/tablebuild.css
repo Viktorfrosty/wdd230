@@ -1,8 +1,8 @@
 :root {
-    --primary-color: lightgray;
-    --secondary-color: darkgray;
-    --extra-color: black;
-    --border: 5px solid black;
+    --primary-color: black;
+    --secondary-color: lightgray;
+    --extra-color: white;
+    --border: 1px solid darkgray;
 }
 
 * {
@@ -14,18 +14,36 @@ body {
     padding: 50px;
 }
 
-/* table {
-    background-color: var(--secondary-color);
-} */
-/* 
-th {
-    font-size: larger;
-    font-weight: bolder;
-    text-wrap: nowrap;
+table {
+    border-collapse: collapse;
 }
 
 tr,th,td {
     padding: 10px 25px;
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: var(--extra-color);
+}
+
+thead th:nth-child(even), thead th:nth-child(3) {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+thead th:nth-child(1) {
+    border-top: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+th {
+    font-size: larger;
+    font-weight: bolder;
+    text-wrap: nowrap;
 }
 
 td,th {
@@ -41,10 +59,7 @@ tbody tr + tr + tr th, tbody tr + tr + tr td {
     border-bottom: var(--border);
 }
 
-thead th:nth-last-child(4) {
-    background-color: var(--extra-color);
+caption {
+    position: relative;
+    top: 250px;
 }
-
-tbody tr:nth-child(odd) {
-    background-color: var(--primary-color);
-} */
