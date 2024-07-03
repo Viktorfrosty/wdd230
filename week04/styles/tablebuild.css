@@ -1,0 +1,50 @@
+:root {
+    --primary-color: lightgray;
+    --secondary-color: darkgray;
+    --extra-color: black;
+    --border: 5px solid black;
+}
+
+* {
+    margin: 0px auto;
+    text-align: center;
+}
+
+body {
+    padding: 50px;
+}
+
+/* table {
+    background-color: var(--secondary-color);
+} */
+/* 
+th {
+    font-size: larger;
+    font-weight: bolder;
+    text-wrap: nowrap;
+}
+
+tr,th,td {
+    padding: 10px 25px;
+}
+
+td,th {
+    border-top: var(--border);
+    border-right: var(--border);
+}
+
+thead th:first-child, tbody th {
+    border-left: var(--border);
+}
+
+tbody tr + tr + tr th, tbody tr + tr + tr td {
+    border-bottom: var(--border);
+}
+
+thead th:nth-last-child(4) {
+    background-color: var(--extra-color);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--primary-color);
+} */
