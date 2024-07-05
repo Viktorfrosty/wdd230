@@ -40,16 +40,18 @@ label {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    text-align: left;
 }
 
 #rating {
-    width: 230px;
+    width: 220px;
 }
 
-#rangevalues {
+#range-values {
 	display: flex;
 	margin-top: -25px;
 	width: 240px;
+    gap: 4px;
 }
 
 #rangevalues option {
@@ -63,3 +65,4 @@ form [type="submit"] {
     height: 50px;
     color: var(--font-altern-color);
 }
+
