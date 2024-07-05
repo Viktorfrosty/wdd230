@@ -71,4 +71,9 @@
 		grid-column: 1/4;
 	}
 
+	#thanks {
+		grid-column: 1/4;
+		padding: 150px 0px;
+	}
+
 }

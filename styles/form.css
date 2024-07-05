@@ -1,0 +1,65 @@
+:root {
+    --border: 5px solid var(--accent-color);
+    --soft-border: 5px;
+    --inner-color: lightgray;
+    --bakground: linear-gradient(to right, var(--accent-color),var(--main-color), var(--secondary-color));
+}
+
+form {
+    padding: 25px;
+    grid-column: 1/4;
+}
+
+legend {
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    border: var(--border);
+    border-radius: var(--soft-border);
+    background-image: var(--bakground);
+    color: var(--font-altern-color);
+}
+
+fieldset {
+    border: var(--border);
+    border-radius: var(--soft-border);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+input {
+    background-color: var(--inner-color);
+    border-radius: var(--soft-border);
+    height: 50px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#rating {
+    width: 250px;
+}
+
+#rangevalues {
+	display: flex;
+	margin-top: -25px;
+	width: 260px;
+}
+
+#rangevalues option {
+	flex: 0px;
+}
+
+form [type="submit"] {
+    margin-top: 25px;
+    background-image: var(--bakground);
+    width: 300px;
+    height: 50px;
+    color: var(--font-altern-color);
+}

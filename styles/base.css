@@ -224,6 +224,10 @@ header, footer, .card h2 {
     background-image: linear-gradient(to right, var(--accent-color),var(--main-color), var(--secondary-color));
 }
 
+#thanks {
+    padding: 125px 5px;
+}
+
 @keyframes fade {
     0% {
         opacity: 0;
