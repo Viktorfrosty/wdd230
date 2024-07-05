@@ -2,11 +2,13 @@ const password = document.querySelector("#passsword1");
 
 const verification = document.querySelector("#verification");
 
+password.addEventListener("focusout", checkSamePassword);
+
 verification.addEventListener("focusout", checkSamePassword);
 
 function checkSamePassword() {
 
-    if (verification.value == "") {
+    if (verification.value == "" || verification.value == "" && password.value == "") {
         verification.title = "The password needs to match.";
     } else if (verification.value !== password.value) {
         verification.title = "The passwords doesn't match.";
