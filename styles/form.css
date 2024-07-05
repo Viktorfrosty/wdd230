@@ -43,13 +43,13 @@ label {
 }
 
 #rating {
-    width: 250px;
+    width: 230px;
 }
 
 #rangevalues {
 	display: flex;
 	margin-top: -25px;
-	width: 260px;
+	width: 240px;
 }
 
 #rangevalues option {
@@ -59,7 +59,7 @@ label {
 form [type="submit"] {
     margin-top: 25px;
     background-image: var(--bakground);
-    width: 300px;
+    width: 250px;
     height: 50px;
     color: var(--font-altern-color);
 }
