@@ -59,7 +59,7 @@ label {
 }
 
 form [type="submit"] {
-    margin-top: 25px;
+    margin: 25px auto;
     background-image: var(--bakground);
     width: 250px;
     height: 50px;
