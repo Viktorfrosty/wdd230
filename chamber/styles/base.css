@@ -322,7 +322,7 @@ address {
     font-size: small;
 }
 
-#registration h1, #registration div h2 {
+#registration h2, #registration div h2 {
     text-align: center;
 }
 
@@ -345,9 +345,6 @@ address {
     border: 5px solid var(--secondary-color);
     border-radius: 0px 10px;
     width: 200px;
-    position: relative;
-    top: 25px;
-    margin: 0px auto;
     padding: 10px;
     background-image: var(--special);
 }
