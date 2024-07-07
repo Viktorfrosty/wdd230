@@ -142,7 +142,7 @@
                         Last name *<input type="text" name="lname" id="lname" placeholder="e.g. De Tal" required>
                     </label>
                     <label>
-                        Title or Position *<input type="text" name="rank" id="rank" placeholder="e.g. Secretary" pattern="[a-zA-Z]+" title="only alphabetic characters." required>
+                        Title or Position *<input type="text" name="rank" id="rank" placeholder="e.g. Secretary" pattern="[a-zA-Z\- ]{7,}" title="Only alphabetic characters, hyphens, and spaces allowed. (7 characters or more.)" required>
                     </label>
                     <label>
                         Email address *<input type="email" name="email" id="email" placeholder="your_e@mail.com" required>
@@ -158,7 +158,7 @@
                         <textarea id="description" name="description" rows="5" cols="50"></textarea>
                     </label>
                     <div> 
-                        Membership *
+                        Membership type*
                     </div>
                     <label>
                         <input type="radio" name="membership" value="bronze" required> Bronze Membership
