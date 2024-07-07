@@ -315,7 +315,82 @@ address {
 /* ------------------------- Join Page Elements ------------------------ */
 /* -------------------------------------↓------------------------------------ */
 
+#registration {
+    padding: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: small;
+}
 
+#registration h1, #registration div h2 {
+    text-align: center;
+}
+
+#registration li {
+    padding: 10px 0px;
+}
+
+#registration article p {
+    margin-bottom: 25px;
+}
+
+#registration article {
+    max-width: 90%;
+    padding: 5px 10px;
+}
+
+#registration legend {
+    text-align: center;
+    color: var(--accent-color);
+    border: 5px solid var(--secondary-color);
+    border-radius: 0px 10px;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    margin: 0px auto;
+    padding: 10px;
+    background-image: var(--special);
+}
+
+#registration fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 25px 25px;
+    border: 5px solid var(--secondary-color);
+}
+
+#registration label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#registration input, #registration textarea {
+    max-width: 200px;
+}
+
+#registration label:has([type="radio"]) {
+    flex-direction: row;
+    gap: 10px;
+}
+
+#registration input[type="text"], #registration input[type="email"], #registration input[type="tel"], #registration textarea {
+    min-height: 45px;
+    padding: 5px;
+}
+
+#registration input[type="submit"] {
+    margin: 50px auto;
+    height: 50px;
+    padding: 10px;
+    background-image: var(--special);
+    color: var(--accent-color);
+}
+
+fieldset, input, textarea {
+    border-radius: 5px;
+}
 
 /* -------------------------------------x------------------------------------ */
 /* ------------------------- thank you Page Elements ------------------------ */

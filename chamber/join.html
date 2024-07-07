@@ -53,11 +53,137 @@
         </ul>
     </nav>
     <main>
-        <form method="get" action="thankyou.html">
-            <label>
-                
-            </label>
-        </form>
+        <section id="registration">
+            <h1>
+                Become part of our network
+            </h1>
+            <div>
+                <h2>
+                    Membership benefits
+                </h2>
+                <article>
+                    <h2>
+                        Bronze level
+                    </h2>
+                    <p>
+                        Our basic service package.
+                    </p>
+                    <ul>
+                        <li>
+                            Advertising ( Basic )
+                        </li>
+                    </ul>
+                    <h3>
+                        75 $/Month
+                    </h3>
+                </article>
+                <article>
+                    <h2>
+                        Silver level
+                    </h2>
+                    <p>
+                        A medium level service package
+                    </p>
+                    <ul>
+                        <li>
+                            Advertising ( Premium )
+                        </li>
+                        <li>
+                            Mentoring ( Basic )
+                        </li>
+                    </ul>
+                    <h3>
+                        150 $/Month
+                    </h3>
+                </article>
+                <article>
+                    <h2>
+                        Gold level
+                    </h2>
+                    <p>
+                        The most complete service package we offer.
+                    </p>
+                    <ul>
+                        <li>
+                            Advertising ( Complete )
+                        </li>
+                        <li>
+                            Mentoring ( Complete )
+                        </li>
+                        <li>
+                            Event Partnership
+                        </li>
+                    </ul>
+                    <h3>
+                        300 $/Month
+                    </h3>
+                </article>
+                <article>
+                    <h2>
+                        NP level
+                    </h2>
+                    <p>
+                        A special membership for Non-profit Organizations. <br> the benefits are an equivalent to the Silver and Gold membership levels.
+                    </p>
+                    <h3>
+                        0 $/Month
+                    </h3>
+                </article>
+            </div>
+            <form method="get" action="thankyou.html">
+                <legend>
+                    Registration form
+                </legend>
+                <fieldset>
+                    <label>
+                        First name *<input type="text" name="fname" id="fname" placeholder="e.g. Fulano" required>
+                    </label>
+                    <label>
+                        Last name *<input type="text" name="lname" id="lname" placeholder="e.g. De Tal" required>
+                    </label>
+                    <label>
+                        Title or Position *<input type="text" name="rank" id="rank" placeholder="e.g. Secretary" pattern="[a-zA-Z]+" title="only alphabetic characters." required>
+                    </label>
+                    <label>
+                        Email address *<input type="email" name="email" id="email" placeholder="your_e@mail.com" required>
+                    </label>
+                    <label>
+                        Telephone *<input type="tel" name="phone" id="phone" required>
+                    </label>
+                    <label>
+                        Business/Organization's name *<input type="text" name="wname" id="wname" required>
+                    </label>
+                    <label>
+                        Business/Organization's description
+                        <textarea id="description" name="description" rows="5" cols="50"></textarea>
+                    </label>
+                    <div> 
+                        Membership *
+                    </div>
+                    <label>
+                        <input type="radio" name="membership" value="bronze" required> Bronze Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="membership" value="silver"> Silver Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="membership" value="gold"> Gold Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="membership" value="np"> Non Profit Membership
+                    </label>
+                    <label>
+                        <input type="hidden" id="timestamp" name="timestamp" value="submited">
+                    </label>
+                    <p>
+                        * = required information.
+                    </p>
+                </fieldset>
+                <label>
+                    <input type="submit" value="become a member">
+                </label>
+            </form>
+        </section>
     </main>
     <footer>
         <div id="left-group">
@@ -88,5 +214,6 @@
     </footer>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/navMenu.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 </html>
