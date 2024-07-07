@@ -403,7 +403,7 @@ label span {
     text-align: center;
 }
 
-#thanks h1 {
+#thanks h2 {
     text-decoration: underline 5px var(--primary-color);
-    text-shadow: 1px 2px 3px lightgray;
+    font-size: 20px;
 }
