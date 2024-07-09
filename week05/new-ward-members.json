@@ -1,0 +1,76 @@
+{
+    "newMembers": [
+        {
+            "family": "Trabuco",
+            "movingDate": "2025-05-05",
+            "numRecords": 2,
+            "bishpricVisit": false,
+            "members": [
+                {
+                    "name": "Jhon",
+                    "gender": "male",
+                    "birthDate": "0000-00-00"
+                },
+                {
+                    "name": "Jane",
+                    "gender": "female",
+                    "birthDate": "0000-00-00"
+                }
+            ]
+        },
+        {
+            "family": "Lapua",
+            "movingDate": "2025-05-05",
+            "numRecords": 1,
+            "bishpricVisit": true,
+            "members": [
+                {
+                    "name": "Jack",
+                    "gender": "male",
+                    "birthDate": "0000-00-00"
+                }
+            ]
+        },
+        {
+            "family": "Mondragon",
+            "movingDate": "2025-05-05",
+            "numRecords": 2,
+            "bishpricVisit": false,
+            "members": [
+                {
+                    "name": "Juan",
+                    "gender": "male",
+                    "birthDate": "0000-00-00"
+                },
+                {
+                    "name": "Julia",
+                    "gender": "female",
+                    "birthDate": "0000-00-00"
+                }
+            ]
+        },
+        {
+            "family": "Rossi",
+            "movingDate": "2025-05-05",
+            "numRecords": 3,
+            "bishpricVisit": true,
+            "members": [
+                {
+                    "name": "Julliette",
+                    "gender": "female",
+                    "birthDate": "0000-00-00"
+                },
+                {
+                    "name": "Jennie",
+                    "gender": "female",
+                    "birthDate": "0000-00-00"
+                },
+                {
+                    "name": "Jules",
+                    "gender": "male",
+                    "birthDate": "0000-00-00"
+                }
+            ]
+        }
+    ]
+}
