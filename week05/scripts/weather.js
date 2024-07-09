@@ -47,3 +47,20 @@ function displayResults(data) {
 }
 
 apiFetch();
+
+
+// const testUrl = "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
+
+// async function testResult() {
+
+//     const testResponse = await fetch(testUrl);
+
+//     const supers = await testResponse.json();
+
+//     const power = supers.members[2].powers[1];
+    
+//     console.log(power);
+
+// }
+
+// testResult();
