@@ -18,15 +18,19 @@ function displayInfo(rawData) {
 
     let icon = `https://openweathermap.org/img/w/${rawData.weather[0].icon}.png`;
 
-    weatherIcon.setAttribute("src", icon)
+    let image = document.createElement("img");
 
-    weatherIcon.setAttribute("alt", `${desc} icon`)
+    image.setAttribute("src", icon)
 
-    weatherIcon.setAttribute("loading", "lazy");
+    image.setAttribute("alt", `${desc} icon`)
 
-    weatherIcon.setAttribute("width", "50");
+    image.setAttribute("loading", "lazy");
 
-    weatherIcon.setAttribute("height", "50");
+    image.setAttribute("width", "50");
+
+    image.setAttribute("height", "50");
+
+    weatherIcon.appendChild(image);
 
     cityLocation.textContent = `${city}, ${country}`;
 
