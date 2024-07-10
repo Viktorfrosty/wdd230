@@ -5,7 +5,7 @@ const linksURL = "https://viktorfrosty.github.io/wdd230/data/links.json";
 const list = document.querySelector("#dinamic-list");
 
 async function getLinks() {
-    
+
     const response = await fetch(linksURL);
 
     const data = await response.json();
@@ -46,7 +46,7 @@ function displayLinks(weeks) {
 
         });
 
-        list.append(listElement);
+        list.appendChild(listElement);
 
     });
 
