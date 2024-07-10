@@ -220,6 +220,20 @@ main h1, .hero h3 {
     border-radius: 5px;
 }
 
+#altern-li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#altern-li figure {
+    margin: 0px;
+}
+
+#altern-li p {
+    margin: 0px auto;
+}
+
 header, footer, .card h2 {
     background-image: linear-gradient(to right, var(--accent-color),var(--main-color), var(--secondary-color));
 }
