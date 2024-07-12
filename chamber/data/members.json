@@ -1,5 +1,202 @@
 {
     "members": [
-        
+        {
+            "name": "Reposteria Dulce Victoria",
+            "logo": "images/logo-01",
+            "slogan": "Come and enjoy a sweet victory.",
+            "categories": [
+                "pastry shop", "candy store"
+            ],
+            "addresses": [
+                "Main Avenue, street nine."
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "slogan": "",
+            "categories": [
+
+            ],
+            "addresses": [
+                {
+
+                }
+            ],
+            "numbers": [
+                {
+
+                }
+            ],
+            "website": "",
+            "membership": ""
+        }
     ]
 }
