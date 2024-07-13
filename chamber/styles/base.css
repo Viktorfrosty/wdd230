@@ -415,8 +415,9 @@ label span {
 /* ------------------------- Directory Page Elements ------------------------ */
 /* -------------------------------------↓------------------------------------ */
 
-#directory h2 {
+#directory-header {
     text-align: center;
+    margin: 50px auto;
 }
 
 #directory a {

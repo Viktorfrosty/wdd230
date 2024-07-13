@@ -246,5 +246,17 @@
     /* -----------------------------------x---------------------------------- */
     /* ----------------------- Directory Page Elements ---------------------- */
     /* -----------------------------------↓---------------------------------- */
+    #directory {
+        display: flex;
+        gap: 0px;
+    }
 
+    #directory, #gold-members, #np-members, #silver-members, #bronze-members {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .info-card {
+        width: 250px;
+    }
 }
