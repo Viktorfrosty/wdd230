@@ -188,13 +188,13 @@ function populateDirectory(members) {
 
     });
     
-    goldMemberlist.setAttribute("id", "gold-members");
+    goldMemberlist.setAttribute("class", "members");
 
-    npMemberlist.setAttribute("id", "np-members");
+    npMemberlist.setAttribute("class", "members");
 
-    silverMemberlist.setAttribute("id", "silver-members");
+    silverMemberlist.setAttribute("class", "members");
 
-    bronzeMemberlist.setAttribute("id", "bronze-members");
+    bronzeMemberlist.setAttribute("class", "members");
 
     directory.appendChild(goldMemberlist);
 
@@ -211,8 +211,6 @@ async function getDirectory() {
     let urlData = await fetch(linksURL);
 
     let directoryData = await urlData.json();
-
-    console.log(directoryData.members);
 
     populateDirectory(directoryData.members);
 

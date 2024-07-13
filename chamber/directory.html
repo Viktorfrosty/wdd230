@@ -28,7 +28,7 @@
             Join
         </a>
     </header>
-    <button id="nav-menu">
+    <button  type="button" id="nav-menu">
         <span>
             Menu
         </span>
@@ -54,10 +54,13 @@
     </nav>
     <main>
         <section>
-            <h2 id="directory-header">
-                Directory
-            </h2>
-            <div  id="directory"></div>
+            <div id="directory-header">
+                <h2>
+                    Directory
+                </h2>
+                <button type="button" id="view-button">list view</button>
+            </div>
+            <div id="directory" class="main-grid"></div>
         </section>
     </main>
     <footer>
@@ -90,5 +93,6 @@
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/navMenu.js"></script>
     <script src="scripts/members.js"></script>
+    <script src="scripts/membersView.js"></script>
 </body>
 </html>

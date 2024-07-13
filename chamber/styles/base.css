@@ -418,6 +418,10 @@ label span {
 #directory-header {
     text-align: center;
     margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 #directory a {
@@ -433,28 +437,35 @@ label span {
     font-style: italic;
 }
 
-#gold-members, #np-members, #silver-members, #bronze-members {
-    margin-top: 25px;
-    padding: 25px;
+.main-grid, .grid {
     display: flex;
     flex-direction: column;
-    gap: 75px;
+    gap: 50px;
 }
 
-#gold-members ul, #np-members ul, #silver-members ul, #bronze-members ul {
+.list {
+    display: none;
+}
+
+.grid .members {
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.grid .members ul {
     padding-inline-start: 25px;
     list-style-type: disc;
 }
 
-.info-card {
+.grid .info-card {
     border: 5px solid var(--secondary-color);
     margin: 0px auto;
     padding: 15px;
     border-radius: 10px;
-    width: 80%;
+    width: 250px;
 }
 
-.info-card a::before {
+.grid .info-card a::before {
     padding-inline-start: 7px;
     content: "• ";
     color: var(--secondary-color);
@@ -463,13 +474,13 @@ label span {
     font-size: larger;
 }
 
-.membership-lvl {
+.grid .membership-lvl {
     border: 5px solid var(--secondary-color);
     color: var(--accent-color);
     text-shadow: 5px 3px 2px var(--secondary-color);
-    width: 175px;
+    width: 165px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     margin: 0px auto;
     position: relative;
     top: -45px;

@@ -246,17 +246,24 @@
     /* -----------------------------------x---------------------------------- */
     /* ----------------------- Directory Page Elements ---------------------- */
     /* -----------------------------------↓---------------------------------- */
+
+    #directory-header {
+        margin-bottom: 0px;
+    }
+
     #directory {
         display: flex;
         gap: 0px;
-    }
-
-    #directory, #gold-members, #np-members, #silver-members, #bronze-members {
         flex-wrap: wrap;
         flex-direction: row;
     }
 
-    .info-card {
-        width: 200px;
+    .grid .members {
+        gap: 50px;
+    }
+
+    .grid .info-card {
+        width: 250px;
+        margin-top: 40px;
     }
 }
