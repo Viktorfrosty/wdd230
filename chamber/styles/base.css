@@ -451,6 +451,7 @@ label span {
     margin: 0px auto;
     padding: 15px;
     border-radius: 10px;
+    width: 80%;
 }
 
 .info-card a::before {
@@ -466,9 +467,9 @@ label span {
     border: 5px solid var(--secondary-color);
     color: var(--accent-color);
     text-shadow: 5px 3px 2px var(--secondary-color);
-    width: 200px;
+    width: 175px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin: 0px auto;
     position: relative;
     top: -45px;
