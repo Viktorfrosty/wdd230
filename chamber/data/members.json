@@ -1,200 +1,164 @@
 {
     "members": [
         {
+            "name": "Nova Arts Productions",
+            "logo": "images/nova-arts-productions.webp",
+            "slogan": "Be your dreams.",
+            "categories": [
+                "graphic design", "film making", "webpage design"
+            ],
+            "addresses": [
+                "2nd Avenue, 7th street.",
+                "Forgotten Boulevard, 3rd Avenue."
+            ],
+            "numbers": [
+                "0000-0000000"
+            ],
+            "website": "placeholder.html",
+            "membership": "silver"
+        },
+        {
+            "name": "Cardinal Foundation",
+            "logo": "images/cardinal-foundation.webp",
+            "slogan": "Saving the nature.",
+            "categories": [
+                "animal shelter", "Veterinary services"
+            ],
+            "addresses": [
+                "panam drive, 1st street."
+            ],
+            "numbers": [
+                "0000-0000000","0000-0000000"
+            ],
+            "website": "placeholder.html",
+            "membership": "np"
+        },
+        {
+            "name": "El caldero de mi suegra",
+            "logo": "images/el-caldero-de-mi-suegra.webp",
+            "slogan": "Taste like home.",
+            "categories": [
+                "restaurant"
+            ],
+            "addresses": [
+                "Old Boulevard, 13th street."
+            ],
+            "numbers": [
+                "0000-0000000"
+            ],
+            "website": "placeholder.html",
+            "membership": "bronze"
+        },
+        {
             "name": "Reposteria Dulce Victoria",
-            "logo": "images/logo-01",
+            "logo": "images/reposteria-dulce-victoria.webp",
             "slogan": "Come and enjoy a sweet victory.",
             "categories": [
                 "pastry shop", "candy store"
             ],
             "addresses": [
-                "Main Avenue, street nine."
+                "Main Avenue, 8th street."
             ],
             "numbers": [
                 "0000-0000000","0000-0000000","0000-0000000"
             ],
-            "website": "https://www.reposteriadulcevitoria.com",
+            "website": "placeholder.html",
+            "membership": "silver"
+        },
+        {
+            "name": "The pollos",
+            "logo": "images/the-pollos.webp",
+            "slogan": "Bu-gawk!",
+            "categories": [
+                "fast food", "poultry shop"
+            ],
+            "addresses": [
+                "20th avenue, 34th street.","9th avenue, 13th street.","27th avenue, Canal street."
+            ],
+            "numbers": [
+                "0000-0000000"
+            ],
+            "website": "placeholder.html",
+            "membership": "bronze"
+        },
+        {
+            "name": "Malpica Motors",
+            "logo": "images/malpica-motors.webp",
+            "slogan": "The house of motorsports",
+            "categories": [
+                "car deleadership", "auto parts store", "auto repair shop", "salvage yard"
+            ],
+            "addresses": [
+                "oldtown road, metropolitan limits."
+            ],
+            "numbers": [
+                "0000-0000000","0000-0000000"
+            ],
+            "website": "placeholder.html",
+            "membership": "silver"
+        },
+        {
+            "name": "victor's pride",
+            "logo": "images/victors-pride.webp",
+            "slogan": "Fitting the elegance.",
+            "categories": [
+            ],
+            "addresses": [
+                "Downtown, Main street."
+            ],
+            "numbers": [
+                "0000-0000000"
+            ],
+            "website": "placeholder.html",
+            "membership": "bronze"
+        },
+        {
+            "name": "Lacuna & Lacuna",
+            "logo": "images/lacuna.webp",
+            "slogan": "Your security is our business.",
+            "categories": [
+                "insurance"
+            ],
+            "addresses": [
+                "Briefcase Street, unknow Avenue."
+            ],
+            "numbers": [
+                "0000-0000000","0000-0000000","0000-0000000"
+            ],
+            "website": "placeholder.html",
             "membership": "gold"
         },
         {
-            "name": "",
-            "logo": "",
-            "slogan": "",
+            "name": "Smilecare",
+            "logo": "images/smilecare.webp",
+            "slogan": "Always caring your smile.",
             "categories": [
-
+                "dental clinic"
             ],
             "addresses": [
-                {
-
-                }
+                "Root Avenue, Canal Street."
             ],
             "numbers": [
-                {
-
-                }
+                "0000-0000000"
             ],
-            "website": "",
-            "membership": ""
+            "website": "placeholder.html",
+            "membership": "bronze"
         },
         {
-            "name": "",
-            "logo": "",
-            "slogan": "",
+            "name": "Lapua P.I.",
+            "logo": "images/lapua.webp",
+            "slogan": "Thier affairs within reach of an envelope.",
             "categories": [
-
+                "private investigation"
             ],
             "addresses": [
-                {
-
-                }
+                "Downtown, canal Street."
             ],
             "numbers": [
-                {
-
-                }
+                "0000-0000000","0000-0000000","0000-0000000","0000-0000000","0000-0000000"
             ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
-        },
-        {
-            "name": "",
-            "logo": "",
-            "slogan": "",
-            "categories": [
-
-            ],
-            "addresses": [
-                {
-
-                }
-            ],
-            "numbers": [
-                {
-
-                }
-            ],
-            "website": "",
-            "membership": ""
+            "website": "placeholder.html",
+            "membership": "bronze"
         }
     ]
 }

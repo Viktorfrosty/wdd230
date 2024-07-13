@@ -12,7 +12,10 @@
     --main-fonts: Anta, serif, Arial;
     --altern-fonts: "Familjen Grotesk", sans-serif, Cambria;
     /* Background value*/
-    --special:  linear-gradient(to bottom left, var(--secondary-color), var(--primary-color));;
+    --special:  linear-gradient(to bottom left, var(--secondary-color), var(--primary-color));
+    --gold: linear-gradient(to right, var(--secondary-color), gold);
+    --silver: linear-gradient(to right, var(--secondary-color), silver);
+    --bronze: linear-gradient(to right, var(--secondary-color), #CD7F32);
 }
 
 body {
@@ -119,7 +122,7 @@ body, a {
     text-decoration: none;
 }
 
-body h1, body h2, body h3 {
+body h1, body h2, body h3, body h4 {
     font-family: var(--main-fonts);
 }
 
@@ -411,3 +414,79 @@ label span {
 /* -------------------------------------x------------------------------------ */
 /* ------------------------- Directory Page Elements ------------------------ */
 /* -------------------------------------↓------------------------------------ */
+
+#directory h2 {
+    text-align: center;
+}
+
+#directory a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#directory h4 {
+    font-weight: lighter;
+}
+
+#directory a, #directory h4, .membership-lvl {
+    font-style: italic;
+}
+
+#gold-members, #np-members, #silver-members, #bronze-members {
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+#gold-members ul, #np-members ul, #silver-members ul, #bronze-members ul {
+    padding-inline-start: 25px;
+    list-style-type: disc;
+}
+
+.info-card {
+    border: 5px solid var(--secondary-color);
+    margin: 0px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.info-card a::before {
+    padding-inline-start: 7px;
+    content: "• ";
+    color: var(--secondary-color);
+    font-weight: bolder;
+    font-style: normal;
+    font-size: larger;
+}
+
+.membership-lvl {
+    border: 5px solid var(--secondary-color);
+    color: var(--accent-color);
+    text-shadow: 5px 3px 2px var(--secondary-color);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    position: relative;
+    top: -45px;
+    font-weight: normal;
+    border-radius: 0px 10px;
+}
+
+.gold {
+    background-image: var(--gold);
+}
+
+.np {
+    background-image: var(--special);
+}
+
+.silver {
+    background-image: var(--silver);
+}
+
+.bronze {
+    background-image: var(--bronze);
+}
