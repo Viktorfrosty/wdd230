@@ -415,6 +415,10 @@ label span {
 /* ------------------------- Directory Page Elements ------------------------ */
 /* -------------------------------------↓------------------------------------ */
 
+#directory a {
+    color: var(--primary-color);
+}
+
 #directory-header {
     text-align: center;
     margin: 50px auto;
@@ -424,32 +428,31 @@ label span {
     gap: 50px;
 }
 
-#directory a {
-    color: var(--primary-color);
-    font-weight: bold;
+.members {
+    display: inherit;
 }
 
-#directory h4 {
-    font-weight: lighter;
-}
-
-#directory a, #directory h4, .membership-lvl {
-    font-style: italic;
-}
-
-#directory, .grid {
+#directory .grid {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
-.list {
-    display: none;
+
+.grid a {
+    font-weight: bold;
+}
+
+.grid h4 {
+    font-weight: lighter;
+}
+
+.grid a, .grid h4, .membership-lvl {
+    font-style: italic;
 }
 
 .grid .members {
-    margin-top: 25px;
-    padding: 25px;
+    padding: 0px 25px;
 }
 
 .grid .members ul {
@@ -459,10 +462,10 @@ label span {
 
 .grid .info-card {
     border: 5px solid var(--secondary-color);
-    margin: 0px auto;
+    margin: 50px auto 0px auto;
     padding: 15px;
     border-radius: 10px;
-    width: 250px;
+    width: 230px;
 }
 
 .grid .info-card a::before {
@@ -488,18 +491,41 @@ label span {
     border-radius: 0px 10px;
 }
 
-.gold {
+.grid .gold {
     background-image: var(--gold);
 }
 
-.np {
+.grid .np {
     background-image: var(--special);
 }
 
-.silver {
+.grid .silver {
     background-image: var(--silver);
 }
 
-.bronze {
+.grid .bronze {
     background-image: var(--bronze);
+}
+
+#directory .list {
+    display: flex;
+}
+
+.list .odd {
+    background-color: lightgray;
+}
+
+.list .info-card {
+    padding: 10px 25px;
+}
+
+.list h3, .list a {
+    font-family: var(--altern-fonts);
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.list img, .list h4, .list p {
+    display: none;
 }

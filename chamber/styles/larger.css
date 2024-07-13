@@ -251,11 +251,8 @@
         margin-bottom: 0px;
     }
 
-    #directory {
+    #directory .grid {
         gap: 25px;
-    }
-
-    #directory, .grid {
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -267,5 +264,12 @@
     .grid .info-card {
         width: 250px;
         margin-top: 40px;
+    }
+
+    .list .info-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
     }
 }

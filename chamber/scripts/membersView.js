@@ -2,33 +2,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const viewButton = document.querySelector("#view-button");
 
-    const memberLists = document.querySelectorAll(".members");
+    const directory = document.querySelector("#directory");
 
     viewButton.addEventListener("click", () => {
 
-        memberLists.forEach(memberList => {
+        if (viewButton.textContent.includes("list view")) {
+            
+            directory.classList.add("list");
 
-            if (viewButton.textContent.includes("list view")) {
+            directory.classList.remove("grid");
 
-                memberList.classList.add("grid");
+            viewButton.textContent = "grid view";
 
-                memberList.classList.remove("list");
+        } else if (viewButton.textContent.includes("grid view")) {
+            
+            directory.classList.add("grid");
 
-                viewButton.textContent = "grid view";
+            directory.classList.remove("list");
 
-            } else if (viewButton.textContent.includes("grid view")) {
+            viewButton.textContent = "list view";
 
-                memberList.classList.add("list");
-
-                memberList.classList.remove("grid");
-
-                viewButton.textContent = "list view";
-
-            }
-
-        });
+        };
 
     });
 
 });
-

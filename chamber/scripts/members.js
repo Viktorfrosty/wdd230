@@ -4,6 +4,8 @@ const linksURL = "https://viktorfrosty.github.io/wdd230/chamber/data/members.jso
 
 const directory = document.querySelector("#directory");
 
+let generator = "even";
+
 function populateDirectory(members) {
 
     let goldMemberlist = document.createElement("ul");
@@ -142,7 +144,7 @@ function populateDirectory(members) {
 
         url.textContent = `${member.name}`;
 
-        info.setAttribute("class", "info-card")
+        info.setAttribute("class", "info-card");
 
         info.appendChild(membershipLevel);
 
@@ -188,13 +190,13 @@ function populateDirectory(members) {
 
     });
     
-    goldMemberlist.setAttribute("class", "members grid");
+    goldMemberlist.setAttribute("class", "members");
 
-    npMemberlist.setAttribute("class", "members grid");
+    npMemberlist.setAttribute("class", "members");
 
-    silverMemberlist.setAttribute("class", "members grid");
+    silverMemberlist.setAttribute("class", "members");
 
-    bronzeMemberlist.setAttribute("class", "members grid");
+    bronzeMemberlist.setAttribute("class", "members");
 
     directory.appendChild(goldMemberlist);
 
@@ -203,6 +205,26 @@ function populateDirectory(members) {
     directory.appendChild(silverMemberlist);
 
     directory.appendChild(bronzeMemberlist);
+
+    const cardlist = document.querySelectorAll(".info-card");
+
+    cardlist.forEach(element => {
+                
+        if (generator == "even") {
+
+            element.setAttribute("class", "odd info-card");
+
+            generator = "odd";
+
+        } else if (generator == "odd") {
+
+            element.setAttribute("class", "even info-card");
+
+            generator = "even";
+            
+        };
+        
+    });
 
 };
 
