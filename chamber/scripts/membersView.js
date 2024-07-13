@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    const viewButton = document.querySelector("#view-button");
+
+    const memberLists = document.querySelectorAll(".members");
+
     viewButton.addEventListener("click", () => {
 
         memberLists.forEach(memberList => {
