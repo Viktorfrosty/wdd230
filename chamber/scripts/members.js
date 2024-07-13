@@ -188,13 +188,13 @@ function populateDirectory(members) {
 
     });
     
-    goldMemberlist.setAttribute("class", "members");
+    goldMemberlist.setAttribute("class", "members grid");
 
-    npMemberlist.setAttribute("class", "members");
+    npMemberlist.setAttribute("class", "members grid");
 
-    silverMemberlist.setAttribute("class", "members");
+    silverMemberlist.setAttribute("class", "members grid");
 
-    bronzeMemberlist.setAttribute("class", "members");
+    bronzeMemberlist.setAttribute("class", "members grid");
 
     directory.appendChild(goldMemberlist);
 

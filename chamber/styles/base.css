@@ -437,7 +437,7 @@ label span {
     font-style: italic;
 }
 
-.main-grid, .grid {
+#directory, .grid {
     display: flex;
     flex-direction: column;
     gap: 50px;
