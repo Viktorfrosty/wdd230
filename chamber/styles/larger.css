@@ -252,13 +252,12 @@
     }
 
     #directory {
-        gap: 0px;
-        flex-direction: row;
-        flex-wrap: wrap;
+        gap: 25px;
     }
 
-    .grid {
+    #directory, .grid {
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .grid .members {
