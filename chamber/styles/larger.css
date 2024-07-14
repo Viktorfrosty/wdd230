@@ -271,5 +271,11 @@
         align-items: center;
         justify-content: space-between;
         height: 100px;
+        gap: 25px;
     }
+
+    .list .info-card h3, .list .info-card ul, .list .info-card a {
+        width: 200px;
+    }
+
 }

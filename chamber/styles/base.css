@@ -415,13 +415,28 @@ label span {
 /* ------------------------- Directory Page Elements ------------------------ */
 /* -------------------------------------↓------------------------------------ */
 
+#view-button {
+    width: 75px;
+    height: 75px;
+    border: 5px solid var(--secondary-color);
+    border-radius: 10px;
+    font-family: var(--altern-fonts);
+    font-weight: bold;
+    background-image: var(--special);
+    color: var(--accent-color);
+}
+
+#directory {
+    margin-top: 50px;
+}
+
 #directory a {
     color: var(--primary-color);
 }
 
 #directory-header {
     text-align: center;
-    margin: 50px auto;
+    margin: 75px auto;
     display: flex;
     align-items: center;
     justify-content: center;
