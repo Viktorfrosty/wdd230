@@ -251,19 +251,21 @@
         margin-bottom: 0px;
     }
 
-    #directory .grid {
+    .grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .grid .members {
+        display: flex;
         gap: 25px;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .grid .members {
-        gap: 50px;
-    }
-
     .grid .info-card {
         width: 250px;
-        margin-top: 40px;
     }
 
     .list .info-card {
