@@ -415,6 +415,12 @@ label span {
 /* ------------------------- Directory Page Elements ------------------------ */
 /* -------------------------------------↓------------------------------------ */
 
+.info-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 #view-button {
     width: 75px;
     height: 75px;
