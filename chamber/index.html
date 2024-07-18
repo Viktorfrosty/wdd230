@@ -53,6 +53,12 @@
         </ul>
     </nav>
     <main>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <p>¡Este es un banner pop-up!</p>
+            </div>
+        </div>
         <section id="upper-section">
             <h2>
                 Connecting our people with the world
@@ -70,10 +76,10 @@
                 <h2>
                     Weather
                 </h2>
-                <p>
+                <p id="location">
                     City, Country
                 </p>
-                <p>
+                <p class="daily-Weather">
                     Temperature - Weather
                 </p>
             </article>
@@ -99,7 +105,7 @@
                         </p>
                     </li>
                 </ul>
-                <a href="#" id="discover-button">
+                <a href="discover.html" id="discover-button">
                     Discover
                 </a>
             </article>
@@ -189,5 +195,7 @@
     </footer>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/navMenu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/meeting.js"></script>
 </body>
 </html>
