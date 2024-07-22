@@ -2,6 +2,8 @@ const forecast = "https://api.openweathermap.org/data/2.5/forecast?lat=10.0739&l
 
 const weather = "https://api.openweathermap.org/data/2.5/weather?lat=10.0739&lon=-69.3228&units=imperial&appid=6e850696e089a955d7a35792a60c403b";
 
+let timing = (Math.floor(Date.now() / 1000)+ 24 * 60 * 60);
+
 const cityLocation = document.querySelector("#location");
 
 const weatherUl = document.querySelector("#weather-list");
@@ -130,7 +132,7 @@ function displayforecast(weatherList) {
 
     weatherList.forEach(weatherInfo => {
 
-        if (weatherInfo.dt_txt.includes("06:00:00") && forecastCounter < 3) {
+        if (weatherInfo.dt > timing && weatherInfo.dt_txt.includes("06:00:00") && forecastCounter < 3) {
 
             let weatherLi = document.createElement("li");
 
