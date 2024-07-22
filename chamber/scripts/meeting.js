@@ -1,17 +1,24 @@
-const popup = document.getElementById('popup');
+const popup = document.getElementById("popup");
 
-// const today = new Date().getDay();
+const invitation = document.getElementById("invitation");
 
-const today = 1;
+const today = new Date().getDay();
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    console.log(`today is weekday Nº ${today}`);
-
-    if (today === 1 || today === 2 || today === 3) {
+    if (today === 1 || today === 2) {
 
         popup.style.display = 'flex';
-    }
+
+        invitation.textContent = "The Twilight's Chamber of Commerce helds a meet and greet gathering on Wednesday at 7:00 p.m.";
+
+    } else if (today === 3) {
+
+        popup.style.display = 'flex';
+
+        invitation.textContent = "The Twilight's Chamber of Commerce helds a meet and greet gathering today at 7:00 p.m.";
+
+    };
 
 });
 

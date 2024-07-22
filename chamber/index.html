@@ -55,8 +55,16 @@
     <main>
         <div id="popup" class="popup">
             <div class="popup-content">
-                <span class="close" onclick="closePopup()">&times;</span>
-                <p>¡Este es un banner pop-up!</p>
+                <span class="close" onclick="closePopup()">❌</span>
+                <h2>
+                    Be part of our gatherings!
+                </h2>
+                <h3>
+                    Join us in our meet and greet.
+                </h3>
+                <p id="invitation">
+                    info
+                </p>
             </div>
         </div>
         <section id="upper-section">
@@ -73,15 +81,11 @@
                 Recent news
             </h2>
             <article id="weather-card">
-                <h2>
+                <h2 id="location">
                     Weather
                 </h2>
-                <p id="location">
-                    City, Country
-                </p>
-                <p class="daily-Weather">
-                    Temperature - Weather
-                </p>
+                <ul id="weather-list">
+                </ul>
             </article>
             <article id="event-card">
                 <h2>
@@ -195,7 +199,8 @@
     </footer>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/navMenu.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
     <script src="scripts/meeting.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>
