@@ -313,6 +313,25 @@ address {
     height: 50px;
 }
 
+.info {
+    background-image: none;
+    border: none;
+}
+
+#spotlight-list img {
+    height: auto;
+    width: 100%;
+}
+
+#spotlight-list a {
+    color: var(--accent-color);
+    font-family: var(--main-fonts);
+}
+
+#spotlight-list a:hover {
+    text-decoration: underline 5px var(--accent-color);
+}
+
 /* -----------x---------- */
 /* Discovery Page Element */
 /* -----------↓---------- */
