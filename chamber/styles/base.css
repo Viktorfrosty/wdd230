@@ -280,7 +280,6 @@ article img {
 }
 
 #cta-card img {
-    border: 5px solid var(--secondary-color);
     border-radius: 5px;
 }
 
