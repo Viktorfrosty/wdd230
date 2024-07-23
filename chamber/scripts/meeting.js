@@ -10,19 +10,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
         popup.style.display = 'flex';
 
-        invitation.textContent = "The Twilight's Chamber of Commerce helds a meet and greet gathering on Wednesday at 7:00 p.m.";
+        invitation.textContent = "The Twilight's Chamber of Commerce will hold a meet and greet gathering on Wednesday at 7:00 p.m.";
 
     } else if (today === 2) {
 
         popup.style.display = 'flex';
 
-        invitation.textContent = "The Twilight's Chamber of Commerce helds a meet and greet gathering tomorrow at 7:00 p.m.";
+        invitation.textContent = "The Twilight's Chamber of Commerce will hold a meet and greet gathering tomorrow at 7:00 p.m.";
 
     } else if (today === 3) {
 
         popup.style.display = 'flex';
 
-        invitation.textContent = "The Twilight's Chamber of Commerce helds a meet and greet gathering today at 7:00 p.m.";
+        invitation.textContent = "The Twilight's Chamber of Commerce will hold a meet and greet gathering today at 7:00 p.m.";
 
     };
 
