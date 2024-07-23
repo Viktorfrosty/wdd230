@@ -87,6 +87,8 @@ function populateSpotlight(members) {
 
         websiteLi.appendChild(website);
 
+        info.setAttribute("class", "member-card");
+
         info.appendChild(websiteLi);
 
         li.appendChild(logo);
@@ -96,6 +98,8 @@ function populateSpotlight(members) {
         li.appendChild(slogan);
 
         li.appendChild(info);
+
+        li.setAttribute("class", "member");
 
         spotlight.appendChild(li);
         

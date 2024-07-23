@@ -2,7 +2,7 @@ const forecast = "https://api.openweathermap.org/data/2.5/forecast?lat=10.0739&l
 
 const weather = "https://api.openweathermap.org/data/2.5/weather?lat=10.0739&lon=-69.3228&units=imperial&appid=6e850696e089a955d7a35792a60c403b";
 
-let timing = (Math.floor(Date.now() / 1000)+ 24 * 60 * 60);
+let timing = (Math.floor(Date.now() / 1000) + 3 * 60 * 60);
 
 const cityLocation = document.querySelector("#location");
 
@@ -80,6 +80,8 @@ function displayWeather(data) {
     
     let weatherPrediction = document.createElement("p");
 
+    let div = document.createElement("div");
+
     let temp = data.main.temp;
 
     let desc = data.weather[0].description;
@@ -100,9 +102,13 @@ function displayWeather(data) {
 
     weatherLi.setAttribute("class","daily-weather");
 
-    weatherLi.appendChild(weatherPrediction);
+    div.appendChild(weatherPrediction);
 
-    weatherLi.appendChild(weatherIcon);
+    div.appendChild(weatherIcon);
+
+    div.setAttribute("class", "prediction");
+    
+    weatherLi.appendChild(div);
 
     weatherUl.appendChild(weatherLi);
 
@@ -134,6 +140,8 @@ function displayforecast(weatherList) {
 
         if (weatherInfo.dt > timing && weatherInfo.dt_txt.includes("06:00:00") && forecastCounter < 3) {
 
+            let div = document.createElement("div");
+
             let weatherLi = document.createElement("li");
 
             let weatherTitle = document.createElement("p");
@@ -164,9 +172,13 @@ function displayforecast(weatherList) {
 
             weatherLi.appendChild(weatherTitle);
 
-            weatherLi.appendChild(weatherPrediction);
+            div.appendChild(weatherPrediction);
 
-            weatherLi.appendChild(weatherIcon);
+            div.appendChild(weatherIcon);
+        
+            div.setAttribute("class", "prediction");
+            
+            weatherLi.appendChild(div);
 
             weatherUl.appendChild(weatherLi);
 
